@@ -9,7 +9,7 @@ A responsive and interactive Rock Paper Scissors game built with HTML, CSS, and 
 
 ## 🎮 Features
 
-- **Classic Gameplay**: Play Rock, Paper, Scissors against computer AI
+- **Classic Gameplay**: Play Rock, Paper, Scissors against computer
 - **Score Persistence**: Wins, losses, and ties saved in localStorage
 - **Auto-Play Mode**: Watch the computer play against itself automatically
 - **Keyboard Shortcuts**: 
