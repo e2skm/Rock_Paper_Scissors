@@ -34,8 +34,7 @@ A responsive and interactive Rock Paper Scissors game built with HTML, CSS, and 
 - **Local Storage API** - Score persistence
 
 ## 📁 Project Structure
-Youtube_Cloned/
-├── index.html
+Rock_Paper_Scissors/
 ├── Rock_Paper_Scissors.css
 ├── Rock_Paper_Scissors.js
 ├── images/
