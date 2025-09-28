@@ -24,7 +24,7 @@ A responsive and interactive Rock Paper Scissors game built with HTML, CSS, and 
 
 ## 🚀 Live Demo
 
-[Play the Game](https://e2skm.github.io/Youtube_Cloned/)
+[Play the Game](https://e2skm.github.io/Rock_Paper_Scissors/)
 
 ## 🛠️ Technologies Used
 
