@@ -1,0 +1,223 @@
+/* 12_Rock_Paper_Scissors with autoplay - Responsive Version */
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial;
+  background-color: rgb(25,25,25);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.move-icon{
+  height: 50px;
+  width: auto;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.move-button:hover {
+  transform: scale(1.05);
+}
+
+.result{
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.moves-display {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.score{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.reset-score-button, .auto-play-button, .confirm-button{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.reset-score-button:hover, .auto-play-button:hover, .confirm-button:hover {
+  background-color: #e0e0e0;
+}
+
+.confirmation-question{
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.confirmation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.confirmation-message{
+  margin-top: 20px;
+  font-size: 18px;
+  display: none;
+  text-align: center;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+  
+  .move-button {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .move-icon {
+    height: 40px;
+  }
+  
+  .result {
+    font-size: 22px;
+  }
+  
+  .score {
+    font-size: 18px;
+  }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons-container {
+    gap: 10px;
+  }
+  
+  .move-button {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .move-icon {
+    height: 35px;
+  }
+  
+  .result {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .moves-display {
+    font-size: 16px;
+    min-height: 50px;
+  }
+  
+  .score {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .reset-score-button, .auto-play-button {
+    width: 200px;
+    padding: 12px;
+  }
+  
+  .confirmation-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .confirm-button {
+    width: 150px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+  .title {
+    font-size: 18px;
+  }
+  
+  .move-button {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .move-icon {
+    height: 30px;
+  }
+}
